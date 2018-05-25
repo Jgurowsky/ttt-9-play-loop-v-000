@@ -35,8 +35,8 @@ def turn(board)
   end
 end
 
-turn_counter = 0
 def play(board)
+  turn_counter = 0
   loop do
   turn_counter += 1
   turn(board)
