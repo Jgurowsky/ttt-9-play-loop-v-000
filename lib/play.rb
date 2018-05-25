@@ -41,4 +41,6 @@ def play(board)
   if 9.times do
     break
   end
+  end
+end
 end
