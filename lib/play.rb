@@ -38,8 +38,8 @@ end
 turn_counter = 0
 def play(board)
   loop do
+  turn_counter += 1  
   turn(board)
-  turn_counter += 1
   if turn_counter >= 9
     break
   end
